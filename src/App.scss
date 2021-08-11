@@ -6,13 +6,42 @@
 
 .center {
 	position: absolute;
-	height: 200px;
-	width: 200px;
+	text-align: left;
+	height: 150px;
+	width: 350px;
 	top: 50%;
 	left: 50%;
-	margin-left: -100px;
-	margin-top: -100px;
-	background-color: whitesmoke;
-	color: purple;
-	font-size: 100px;
+	margin-left: -175px;
+	margin-top: -75px;
+	background-color: rgb(65, 59, 59);
+	color: rgb(233, 210, 233);
+	font-size: 25px;
+	overflow: auto;
+}
+
+.input{
+	position: absolute;
+	height: 0%;
+}
+
+.fake-sentence{
+	position: absolute;
+	height: 175px;
+	width: 50%;
+	margin: 0 auto;
+	left: 25%;
+	top: 50px;
+	border: 2px solid black;
+	color: grey;
+	background-color: aquamarine;
+	font-size: 25px;
+	overflow: auto;
+}
+
+.score-card {
+	position: absolute;
+	height: 50px;
+	width: 75px;
+	color: green;
+	border: 2px solid greenyellow;
 }

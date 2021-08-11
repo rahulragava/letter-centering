@@ -1,5 +1,6 @@
 const seed = {
 	input: '',
+	score: 0,
 
 };
 
